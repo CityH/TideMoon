@@ -8,7 +8,6 @@ public class ScoreManager : MonoBehaviour
     public static int score;
     public Text scoreText;//UI
     public static int targetScore = 20;
-    public bool isSpeedIncreased =false;
     private void Start()
     {
         score = 0;
